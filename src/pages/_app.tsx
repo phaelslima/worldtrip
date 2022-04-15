@@ -5,6 +5,12 @@ import { Header } from '../components/Header'
 
 import { theme } from '../styles/theme'
 
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+
+import '../styles/slide.scss'
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
